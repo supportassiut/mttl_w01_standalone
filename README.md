@@ -1,6 +1,6 @@
 # MTTL-W01 Standalone Firmware
 
-한국어 | [English](README_EN.md)
+한국어 | [English](README_EN.md) | [العربية](README_AR.md)
 
 LG U+ MTTL-W01을 별도 백엔드 서버나 DNAT 없이 Wi-Fi 웹 대시보드와
 MQTT로 Home Assistant에 연결하는 독립 펌웨어입니다.
@@ -13,7 +13,7 @@ MQTT로 Home Assistant에 연결하는 독립 펌웨어입니다.
 
 [comMTTL-W01_2.0.9.fwr 다운로드](firmware/comMTTL-W01_2.0.9.fwr)
 
-SHA-256: `30f2816cce89d7503759c4e630b1e6247ca10066a96a892b2524624e5d971d1e`
+SHA-256: `f22ece8cb5a163b2d56137c38a52c101ce971722ccd932640ea0a6e65caa2ec8`
 
 기존 독립 펌웨어 사용자는 기기 웹의 **펌웨어** 탭에서 위 파일로 업데이트할 수 있습니다.
 
@@ -28,7 +28,7 @@ SHA-256: `30f2816cce89d7503759c4e630b1e6247ca10066a96a892b2524624e5d971d1e`
 - SoftAP Wi-Fi 설정, SSID 검색, LAN에서 Wi-Fi 변경 및 자동 재연결
 - 개별 채널·전체 ON/OFF, 물리 버튼과 LED 연동
 - 전체 전력·누적량·전압·전류와 채널별 전력·누적량·전류·온도
-- 기기명·채널명 변경, 한국어/영어 UI, NTP 시간, 브라우저 세션 로그
+- 기기명·채널명 변경, 아랍어/영어 UI(Arabic/English UI), NTP 시간, 브라우저 세션 로그
 - Home Assistant MQTT Discovery: 스위치 5개·센서 20개
 - SSE 상태 반영, 웹 optimistic 제어; HA는 완료 상태 보고 사용
 - FWR 웹 OTA, 설정·누적량 유지, watchdog 활성화

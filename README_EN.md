@@ -1,6 +1,6 @@
 # MTTL-W01 Standalone Firmware
 
-[한국어](README.md) | English
+[한국어](README.md) | English | [العربية](README_AR.md)
 
 Direct Wi-Fi web control and Home Assistant MQTT integration for the LG U+
 MTTL-W01, without a separate backend or router DNAT.
@@ -13,7 +13,7 @@ MTTL-W01, without a separate backend or router DNAT.
 
 [Download comMTTL-W01_2.0.9.fwr](firmware/comMTTL-W01_2.0.9.fwr)
 
-SHA-256: `30f2816cce89d7503759c4e630b1e6247ca10066a96a892b2524624e5d971d1e`
+SHA-256: `f22ece8cb5a163b2d56137c38a52c101ce971722ccd932640ea0a6e65caa2ec8`
 
 Existing standalone users can update through the device's **Firmware** tab.
 
@@ -28,7 +28,7 @@ Power cutoff was verified on the test device using a 1000W threshold and a hair 
 - SoftAP Wi-Fi setup/scan, LAN Wi-Fi changes and automatic reconnection
 - Individual/all channel control, physical buttons and LEDs
 - Total power/energy/voltage/current and per-channel power/energy/current/temperature
-- Editable device/channel names, Korean/English UI, NTP and browser-session logs
+- Editable device/channel names, Arabic/English UI with switcher, NTP and browser-session logs
 - HA MQTT Discovery: five switches and twenty sensors
 - SSE updates, optimistic web controls and confirmed logical-state reporting to HA
 - FWR web OTA, persistent settings/energy and enabled watchdog
